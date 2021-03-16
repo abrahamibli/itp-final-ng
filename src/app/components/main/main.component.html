@@ -1,0 +1,43 @@
+<div class="page">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Final Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item" routerLinkActive="active">
+                        <a class="nav-link active" [routerLink]="['/home']" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Consulta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Cátalogos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container-xl page-body">
+            <router-outlet></router-outlet>
+        </div>
+        <footer class="bg-dark text-center text-lg-start text-light">
+            <div class="footer-body container">
+                <div class="row">
+                    <div class="col-md-12 pt-10">
+                        <p>Abraham Ibarra · Edgar Guel</p>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </footer>
+    </div>
+</div>

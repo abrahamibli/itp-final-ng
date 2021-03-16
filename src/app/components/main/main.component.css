@@ -1,0 +1,20 @@
+.pt-25 {
+    padding-top: 25px;
+}
+
+.footer-body {
+    height: 100px;
+}
+
+.page-body {
+    padding-top: 25px;
+    min-height: calc(100vh - 170.38px);
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.p-0 {
+    padding: 0px !important;
+}
